@@ -59,4 +59,15 @@ export default createGlobalStyle`
     }
   }
 
+  
+  div.overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: ${({ theme }) => theme.gradient};
+    opacity: 0.7;
+    transition: 0.5s;
+  }
 `;

@@ -97,15 +97,6 @@ export const ProjectContainer = styled.div<ProjectProps>`
     background-size: cover;
     position: relative;
 
-    > div.overlay {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: ${({ theme }) => theme.gradient};
-      opacity: 0.75;
-      transition: 0.5s;
-    }
-
     > div.text {
       position: absolute;
       top: 3rem;
