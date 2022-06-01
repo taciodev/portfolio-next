@@ -1,9 +1,9 @@
-import { ReactNode } from 'react';
+import React from 'react';
 import { Container } from './styles';
 
 interface SectionTitleProps {
-  title: string | ReactNode;
-  description?: string | ReactNode;
+  title: string | React.ReactNode;
+  description?: string | React.ReactNode;
 }
 
 function SectionTitle({ title, description }: SectionTitleProps) {
